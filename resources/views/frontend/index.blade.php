@@ -46,15 +46,15 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 text-center">
-                <h4>Welcome to LaraMart ✨✨</h4>
+                <img src="" alt="">
+                <h4>Welcome to Shokiw 🛒✨</h4>
                 <div class="underline  mx-auto">
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Deserunt, dolor fugit impedit et doloremque debitis quis
-                    consequuntur consectetur minima quaerat id veritatis
-                    assumenda dolorem magnam odit explicabo, aperiam temporibus
-                    rerum ducimus enim inventore soluta. Harum nemo placeat iusto
+                Selamat Datang di Shokiw!
+                Kami berkomitmen untuk menyediakan produk dan layanan berkualitas 
+                terbaik untuk Anda. Jelajahi penawaran eksklusif kami dan nikmati pengalaman 
+                berbelanja yang mudah dan aman. Hubungi kami untuk pertanyaan atau dukungan lebih lanjut.
                 </p>
             </div>
         </div>
@@ -92,8 +92,8 @@
                                     </a>
                                 </h5>
                                 <div>
-                                    <span class="selling-price">{{ $product->selling_price}}</span>
-                                    <span class="original-price">{{ $product->original_price}}</span>
+                                    <span class="selling-price">@rupiah($product->selling_price)</span>
+                                    <span class="original-price">@rupiah($product->original_price)</span>
                                 </div>
                             </div>
                         </div>
@@ -143,8 +143,8 @@
                                     </a>
                                 </h5>
                                 <div>
-                                    <span class="selling-price">{{ $product->selling_price}}</span>
-                                    <span class="original-price">{{ $product->original_price}}</span>
+                                    <span class="selling-price">@rupiah($product->selling_price)</span>
+                                    <span class="original-price">@rupiah($product->original_price)</span>
                                 </div>
                             </div>
                         </div>

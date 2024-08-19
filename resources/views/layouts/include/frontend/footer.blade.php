@@ -6,8 +6,9 @@
                     <h4 class="footer-heading">{{ $appSetting->website_name ?? 'Website Name' }}</h4>
                     <div class="footer-underline"></div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    Kami sangat gembira Anda berkunjung. 
+                    Kami di sini untuk memastikan Anda mendapatkan pengalaman 
+                    berbelanja yang terbaik. Selamat menikmati di Shokiw!"
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -56,25 +57,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p class=""> &copy; 2022 - Funda of Web IT - Ecommerce. All rights reserved.</p>
+                    <p class=""> &copy; 2023 - Funda of Web IT - Ecommerce. All rights reserved.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="social-media">
                         Get Connected:
                         {{ $appSetting->phone1 ?? 'Phone 1' }}
 
-                        @if($appSetting->facebook)
-                        <a href="{{ $appSetting->facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
-                        @endif
-                        @if($appSetting->x)
-                        <a href="{{ $appSetting->x }}" target="_blank"><i class="fa fa-twitter"></i></a>
-                        @endif
-                        @if($appSetting->instagram)
-                        <a href="{{ $appSetting->instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>
-                        @endif
-                        @if($appSetting->youtube)
-                        <a href="{{ $appSetting->youtube }}" target="_blank"><i class="fa fa-youtube"></i></a>
-                        @endif
+                       
                         
                     </div>
                 </div>
